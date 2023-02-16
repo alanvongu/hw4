@@ -1,9 +1,8 @@
 const words = [];
-
 while (true) {
   const word = prompt("Enter a word or type 'stop' to end:");
 
-  if (word === null) { /
+  if (word === null) { 
     continue;
   }
 
